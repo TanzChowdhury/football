@@ -117,12 +117,25 @@ footer img{
 
  @media only screen and (max-width:688px) {
      
-    
+    .top-section{
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        display: block;
+        padding: 0;
+    }
     .container{
          width: 100%;
      }
      .level-1{
          grid-template-columns: repeat(1, 1fr);
      }
+     footer{
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+       
+     }
 
  }
+ 
