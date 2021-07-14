@@ -83,7 +83,22 @@ body{
     padding-top: 5px;
     padding-right: 15px;
     padding-left: 15px;
+    grid-row-gap: 15px;
+    align-items: center;
 }
+
+
+/* wc2018 */
+.container-2{
+    margin: 0 auto;
+    width: 1050px;
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+}
+
 
 /* footer  */
  
@@ -133,6 +148,13 @@ footer img{
      }
      .level-1{
          grid-template-columns: repeat(1, 1fr);
+     }
+
+     .container-2{
+        width:100%;
+    }
+    .videos{
+        grid-template-columns: repeat(1, 1fr);
      }
      footer{
         width: 80%;
